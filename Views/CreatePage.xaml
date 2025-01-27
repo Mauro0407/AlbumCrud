@@ -4,7 +4,7 @@
              x:Class="AlbumCrud.Views.CreatePage">
 
     <StackLayout Padding="20">
-        <Label Text="Nuevo Álbum" FontSize="24" HorizontalOptions="Center" />
+        <Label Text="Nuevo Álbum" FontSize="25" HorizontalOptions="Center" />
 
         <Entry Placeholder="Nombre del Álbum" Text="{Binding Album.Name}" />
         <Entry Placeholder="Fecha de Salida" Text="{Binding Album.ReleaseDate}" />
