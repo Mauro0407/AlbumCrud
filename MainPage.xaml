@@ -25,7 +25,7 @@
                 HorizontalOptions="Fill" />
 
             <Button
-                Text="Go to Update"
+                Text="Actualizar album"
                 SemanticProperties.Hint="Navigate to the Update page"
                 Clicked="OnGoToUpdateClicked"
                 HorizontalOptions="Fill" />
