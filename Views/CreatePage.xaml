@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="AlbumCrud.Views.CreatePage">
+
+    <StackLayout Padding="20">
+        <Label Text="Nuevo Álbum" FontSize="24" HorizontalOptions="Center" />
+
+        <Entry Placeholder="Nombre del Álbum" Text="{Binding Album.Name}" />
+        <Entry Placeholder="Fecha de Salida" Text="{Binding Album.ReleaseDate}" />
+        <Entry Placeholder="Género" Text="{Binding Album.Genre}" />
+
+        <Button Text="Guardar" Command="{Binding SaveCommand}" />
+    </StackLayout>
+
+</ContentPage>
