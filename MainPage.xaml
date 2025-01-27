@@ -13,7 +13,7 @@
                 HorizontalOptions="Fill" />
 
             <Button
-                Text="Go to Create"
+                Text="Nuevo Album"
                 SemanticProperties.Hint="Navigate to the Create page"
                 Clicked="OnGoToCreateClicked"
                 HorizontalOptions="Fill" />
