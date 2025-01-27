@@ -5,7 +5,7 @@
 
     <StackLayout>
         <Label Text="Lista de Álbumes" 
-               FontSize="24"
+               FontSize="25"
                HorizontalOptions="Center" />
 
         <CollectionView ItemsSource="{Binding Albums}">
