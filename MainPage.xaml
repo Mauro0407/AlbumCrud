@@ -19,7 +19,7 @@
                 HorizontalOptions="Fill" />
 
             <Button
-                Text="Go to Show"
+                Text="Detalles del album"
                 SemanticProperties.Hint="Navigate to the Show page"
                 Clicked="OnGoToShowClicked"
                 HorizontalOptions="Fill" />
