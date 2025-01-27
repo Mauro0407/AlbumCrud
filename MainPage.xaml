@@ -7,7 +7,7 @@
         <VerticalStackLayout Padding="30,0" Spacing="25">
 
             <Button
-                Text="Go to Index"
+                Text="Lista de albumes"
                 SemanticProperties.Hint="Navigate to the Index page"
                 Clicked="OnGoToIndexClicked"
                 HorizontalOptions="Fill" />
